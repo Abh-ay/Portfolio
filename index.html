@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+
+    <title>👨‍💻 Abhay Nirmal</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right"
+        uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+
+        <div class="uk-navbar-left">
+            <a href="" class="uk-navbar-item uk-logo uk-light">👨‍💻 Abhay N.</a>
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav uk-light">
+                <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+                <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
+                <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>Contact</a></li>
+                <li><a class="uk-button-text uk-text-capitalize" href="assets/Abhay Resume 25.pdf"
+                        download>Resume/CV</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Navigation Bar Ends  -->
+
+    <!-- Navigation Bar Mobile -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right"
+        uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+
+        <div class="uk-navbar-left">
+            <a href="" class="uk-navbar-item uk-logo uk-light">👨‍💻 Abhay N.</a>
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav uk-light">
+                <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Change This -->
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+                <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+                <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+                <li class="uk-active"><a href="#about">Contact</a></li>
+                <!--- change to ur email-->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navigation Bar Mobile Ends -->
+    <!-- Home -->
+    <section class="uk-margin-small-left uk-margin-small-right uk-margin-small-top uk-margin-small-bottom">
+        <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Abhay Nirmal, a full-stack
+            web
+            developer, <br>With experience in .NET Core, ASP.NET MVC, SQL, Angular and AngularJS</h1>
+        <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About
+            Me</a>
+
+    </section>
+
+    <hr class="uk-margin-small-top uk-margin-xlarge-left uk-margin-xlarge-right"> <!-- About Me -->
+    <section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-small-top uk-margin-small-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+        <!-- Change here to ur paragraph -->
+        <p class="uk-margin-xlarge-left uk-margin-xlarge-right">I am a results-driven Software Developer with over 3
+            years of experience in designing, developing, and maintaining robust web applications and enterprise
+            solutions. With a strong foundation in .NET, MVC, .NET Core, SQL Server, and Angular, I specialize in
+            building scalable systems that streamline complex workflows and enhance operational efficiency.<br><br>For
+            the
+            past 2+ years, I’ve been part of a high-impact development team at TSS Consultancy, contributing to a
+            product focused on automating large-scale customer data operations. My role involves end-to-end feature
+            development, optimizing SQL Server performance for high-volume transactions, and ensuring seamless
+            integration between the front-end and back-end systems.<br><br>I approach software development with a focus
+            on
+            writing clean, maintainable code while adhering to industry best practices. I actively contribute to code
+            reviews, ensuring consistency and performance across the codebase. I excel in environments that emphasize
+            code quality, system reliability, and ongoing optimization.</p>
+        <a class="uk-margin-xlarge-left uk-light uk-button-text" href="mailto:abhidev1912@gmail.com"
+            uk-icon="icon: mail"></a>
+        <a href="https://github.com/Abh-ay" class="uk-light uk-button-text k-margin-remove-left" uk-icon="github"></a>
+        <a href="https://linkedin.com/in/abhay-nirmal" class="uk-light uk-button-text " uk-icon="linkedin"></a>
+
+        <!-- About Me Ends -->
+    </section>
+
+    <!-- Projects Section -->
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <section id="projects"
+        class="uk-margin-small-left uk-margin-small-right uk-margin-large-top uk-margin-large-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+        <p class="uk-margin-xlarge-left">Projects that i've been working on</p>
+
+        <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            <!-- Change all of this to ur projects -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>CKYC</h4>
+                <h5>🛠️ TechStack : .NET Core, Angular ,NHibernate and SQL Server</h5>
+                <p>
+                <ul>
+                    <li>Working on product which uses to interact with CKYC for customer’s verification, creation, and
+                        modification activities in bulk with an automated manner according to different functionalities
+                        of jobs.</li>
+                    <li>Optimized data enrichment jobs which reduced 25% of the time for the daily job cycle and handled
+                        exceptions in an effective manner to avoid interruption on further dependent processes.</li>
+                    <li>Deployed key features for encrypting PII data on top of network calls.</li>
+                    <li>Reduced n/w call and process data batch-wise to show
+                        records on dashboard which leading to 15% time reduction
+                        in dashboard loading activity.
+                    </li>
+                    <li>Identified and fixed memory leak problems in image attachment jobs, which resulted in reducing
+                        approximately 35% memory utilization.</li>
+                    <li>Closely worked with the customer success team, provided efficient solutions within SLA for their
+                        issues, and helped them identify further affected flows.</li>
+                </ul>
+                </p>
+                <h4>AutoDB Upgrade</h4>
+                <h5>🛠️ TechStack : .NET and SQL Server</h5>
+                <p>
+                <ul>
+                    <li>Developed a crucial functionality to streamline the version upgrade process, enabling faster and
+                        more efficient deployments.</li>
+                    <li> Automated key steps in the version upgrade process, reducing manual interventions for patching
+                        activity in database.</li>
+                    <li>Deployed key features for encrypting PII data on top of network calls.</li>
+                    <li>Significantly reduced deployment time, saving hours of manual work and minimizing delays during
+                        version upgrades.
+                    </li>
+                    <li> Incorporated robust error-handling mechanisms, increasing the reliability of the upgrade
+                        process and ensuring higher success rates.</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <section id="projects"
+        class="uk-margin-small-left uk-margin-small-right uk-margin-large-top uk-margin-large-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">Personal Projects</h3>
+        <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            <!-- Change all of this to ur projects -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Tele-bot</h4>
+                <h5>🛠️ TechStack : Go, PostgreSQL</h5>
+                <p>
+                <ul>
+                    <li>This is complete go project and used telegram webhook for
+                        sending message on basis of received text message or
+                        command from end users.</li>
+                    <li>Used Gin web framework for basic routes operation and
+                        used goyesql for writing sql query efficiently and managed
+                        reuse purpose of different queries.</li>
+                    <li>Used PostgreSQL for storing users message template and it's responses.</li>
+                </ul>
+                </p>
+                <h4>Scrap-MobileData</h4>
+                <h5>🛠️ TechStack : Python, Beautifulsoup, Selenium</h5>
+                <p>
+                <ul>
+                    <li>In this project scrap mobiles data from Flipkart according to
+                        different companies.</li>
+                    <li> Using beautifulsoup and selenium for scrapping data from
+                        flipkart and converting into .csv file.</li>
+                    <li>Built API for uploading .csv file and converts scrapped
+                        data into django- mode.</li>
+                    <li>Implemented different functionalities such as search,
+                        pagination and etc.</li>
+
+                </ul>
+                </p>
+            </div>
+        </div>
+
+
+
+        <br>
+
+
+    </section>
+    <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    </div>
+    <!-- Projects Section Ends -->
+
+</body>
+
+</html>
